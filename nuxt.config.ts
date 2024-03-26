@@ -14,4 +14,6 @@ export default defineNuxtConfig({
   runtimeConfig: {
     tmdbApiKey: process.env.TMDB_API_KEY,
   },
+
+  modules: ["@nuxtjs/tailwindcss"],
 });
