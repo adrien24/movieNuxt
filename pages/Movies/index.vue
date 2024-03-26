@@ -4,7 +4,7 @@
     <div class="grid grid-cols-4 gap-4">
       <div class="movies" v-for="m in movies.results" @click="goToMovie(m.id)">
         <img
-          :src="`https://image.tmdb.org/t/p/original/${m.backdrop_path}`"
+          :src="`https://image.tmdb.org/t/p/w1280/${m.backdrop_path}`"
           alt=""
         />
       </div>
