@@ -12,6 +12,7 @@
   "dependencies": {
     "consola": "^3.2.3",
     "nuxt": "^3.11.1",
+    "sass": "^1.72.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
